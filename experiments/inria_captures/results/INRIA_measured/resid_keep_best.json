@@ -1,0 +1,70 @@
+{
+  "best_TAR_ge_0.80": null,
+  "best_any": {
+    "keep": 0.6,
+    "macro_tar": 0.125,
+    "macro_far_unknown": 0.0018130018130018129,
+    "worst_far_unknown": 0.004662004662004662,
+    "macro_far_cross": 0.001253858024691358,
+    "worst_far_cross": 0.005208333333333333
+  },
+  "curve": [
+    {
+      "keep": 0.5,
+      "macro_tar": 0.10570987654320987,
+      "macro_far_unknown": 0.001554001554001554,
+      "worst_far_unknown": 0.004662004662004662,
+      "macro_far_cross": 0.0009645061728395062,
+      "worst_far_cross": 0.004340277777777778
+    },
+    {
+      "keep": 0.6,
+      "macro_tar": 0.125,
+      "macro_far_unknown": 0.0018130018130018129,
+      "worst_far_unknown": 0.004662004662004662,
+      "macro_far_cross": 0.001253858024691358,
+      "worst_far_cross": 0.005208333333333333
+    },
+    {
+      "keep": 0.7,
+      "macro_tar": 0.17746913580246915,
+      "macro_far_unknown": 0.004403004403004404,
+      "worst_far_unknown": 0.016317016317016316,
+      "macro_far_cross": 0.0020254629629629633,
+      "worst_far_cross": 0.008680555555555556
+    },
+    {
+      "keep": 0.8,
+      "macro_tar": 0.22608024691358025,
+      "macro_far_unknown": 0.007252007252007251,
+      "worst_far_unknown": 0.03263403263403263,
+      "macro_far_cross": 0.003375771604938271,
+      "worst_far_cross": 0.013888888888888888
+    },
+    {
+      "keep": 0.85,
+      "macro_tar": 0.24459876543209877,
+      "macro_far_unknown": 0.011396011396011397,
+      "worst_far_unknown": 0.06060606060606061,
+      "macro_far_cross": 0.004340277777777778,
+      "worst_far_cross": 0.015625
+    },
+    {
+      "keep": 0.9,
+      "macro_tar": 0.2700617283950617,
+      "macro_far_unknown": 0.013986013986013988,
+      "worst_far_unknown": 0.07459207459207459,
+      "macro_far_cross": 0.005111882716049383,
+      "worst_far_cross": 0.021701388888888888
+    },
+    {
+      "keep": 0.95,
+      "macro_tar": 0.3117283950617284,
+      "macro_far_unknown": 0.022015022015022017,
+      "worst_far_unknown": 0.08158508158508158,
+      "macro_far_cross": 0.006655092592592593,
+      "worst_far_cross": 0.027777777777777776
+    }
+  ],
+  "evidence_class": "public_measured_radio"
+}

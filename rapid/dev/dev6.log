@@ -1,0 +1,13 @@
+h128 e30 b256 E3 lam0.75: fit  54.7s TAR 88.7 pooled 0.51 p99 12.9 ge50 48 eq100 12 devch 15.4 EER 1.38 acc 87.6 TAR@pooled.87% 93.9 TAR@FAR1% 98.0
+h128 e30 b256 E3 lam0.9: fit  54.7s TAR 88.7 pooled 0.53 p99 16.1 ge50 46 eq100 11 devch 15.7 EER 1.39 acc 87.6 TAR@pooled.87% 93.3 TAR@FAR1% 98.0
+h128 e30 b256 E3 lam1.0: fit  54.7s TAR 88.4 pooled 0.56 p99 16.1 ge50 50 eq100 10 devch 15.6 EER 1.40 acc 87.6 TAR@pooled.87% 92.9 TAR@FAR1% 97.9
+h128 e20 b512 E3 lam0.75: fit  30.0s TAR 88.8 pooled 0.57 p99 16.1 ge50 55 eq100 15 devch 17.9 EER 1.62 acc 86.5 TAR@pooled.87% 92.5 TAR@FAR1% 97.1
+h128 e20 b512 E3 lam0.9: fit  30.0s TAR 88.8 pooled 0.59 p99 16.1 ge50 53 eq100 15 devch 16.8 EER 1.58 acc 86.5 TAR@pooled.87% 91.7 TAR@FAR1% 97.1
+h128 e20 b512 E3 lam1.0: fit  30.0s TAR 88.8 pooled 0.61 p99 19.4 ge50 51 eq100 13 devch 16.6 EER 1.66 acc 86.5 TAR@pooled.87% 90.8 TAR@FAR1% 97.0
+h128 e40 b512 E3 lam0.75: fit  58.2s TAR 88.9 pooled 0.70 p99 22.6 ge50 72 eq100 13 devch 16.2 EER 1.39 acc 87.7 TAR@pooled.87% 91.2 TAR@FAR1% 97.9
+h128 e40 b512 E3 lam0.9: fit  58.2s TAR 88.8 pooled 0.68 p99 22.6 ge50 59 eq100 11 devch 15.2 EER 1.42 acc 87.7 TAR@pooled.87% 91.1 TAR@FAR1% 97.9
+h128 e40 b512 E3 lam1.0: fit  58.2s TAR 88.6 pooled 0.69 p99 22.6 ge50 57 eq100 10 devch 15.2 EER 1.46 acc 87.7 TAR@pooled.87% 90.9 TAR@FAR1% 97.8
+h192 e20 b512 E3 lam0.75: fit  41.9s TAR 89.3 pooled 0.58 p99 16.1 ge50 48 eq100 13 devch 17.8 EER 1.54 acc 87.2 TAR@pooled.87% 94.0 TAR@FAR1% 97.5
+h192 e20 b512 E3 lam0.9: fit  41.9s TAR 89.1 pooled 0.61 p99 16.1 ge50 50 eq100 11 devch 17.1 EER 1.56 acc 87.2 TAR@pooled.87% 94.0 TAR@FAR1% 97.4
+h192 e20 b512 E3 lam1.0: fit  41.9s TAR 89.3 pooled 0.65 p99 19.4 ge50 52 eq100 11 devch 16.3 EER 1.64 acc 87.2 TAR@pooled.87% 93.5 TAR@FAR1% 97.3
+BASELINE {'TAR': 0.8964, 'eff0': 122.0, 'eff50': 119.0, 'pooled': 0.0087, 'worst': 1.0, 'p99': 0.3352, 'p999': 0.9677, 'ge50': 98.0, 'eq100': 12.0, 'oracle': 0.2181, 'devchosen': 0.1967, 'retry': 0.4521, 'EER': 0.0138, 'acc': 0.8696, 'TAR@FAR0.01': 0.9788, 'TAR@FAR0.001': 0.8361, 'TAR@pooled0.87': 0.8957}

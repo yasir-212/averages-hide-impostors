@@ -1,0 +1,122 @@
+{
+  "evidence_type": "Zenodo GNU Radio emulated I/Q; adaptive digital attacks",
+  "threat_ladder": [
+    "A0_raw",
+    "A1_gain_match",
+    "A2_feat_nn",
+    "A2c_feat_nn_top10",
+    "A2b_gain+feat_nn",
+    "A3_surrogate",
+    "A4_gain+surrogate",
+    "A5_nn+centroid_blend"
+  ],
+  "system_under_strongest_attack": [
+    {
+      "defence": "EnergyOnly",
+      "macro_tar": 0.9502115520908593,
+      "worst_far_A0": 0.0,
+      "worst_far_A1_gain_match": 1.0,
+      "worst_far_A2c_feat_nn_top10": 0.0,
+      "worst_far_A5_nn+centroid_blend": 0.0,
+      "worst_far_strongest": 0.0,
+      "far_inflation_strongest": 0.0,
+      "residual_security_strongest": 1.0
+    },
+    {
+      "defence": "IsolationForest",
+      "macro_tar": 0.9489979586862776,
+      "worst_far_A0": 0.27420736932305056,
+      "worst_far_A1_gain_match": 0.27420736932305056,
+      "worst_far_A2c_feat_nn_top10": 0.717948717948718,
+      "worst_far_A5_nn+centroid_blend": 1.0,
+      "worst_far_strongest": 1.0,
+      "far_inflation_strongest": 0.7257926306769494,
+      "residual_security_strongest": 0.0
+    },
+    {
+      "defence": "OAS",
+      "macro_tar": 0.9476748531883137,
+      "worst_far_A0": 0.028277634961439587,
+      "worst_far_A1_gain_match": 0.028277634961439587,
+      "worst_far_A2c_feat_nn_top10": 0.15384615384615385,
+      "worst_far_A5_nn+centroid_blend": 1.0,
+      "worst_far_strongest": 1.0,
+      "far_inflation_strongest": 0.9717223650385605,
+      "residual_security_strongest": 0.0
+    },
+    {
+      "defence": "PAIRCONF",
+      "macro_tar": 0.8944407817690754,
+      "worst_far_A0": 0.026563838903170524,
+      "worst_far_A1_gain_match": 0.026563838903170524,
+      "worst_far_A2c_feat_nn_top10": 0.1452991452991453,
+      "worst_far_A5_nn+centroid_blend": 1.0,
+      "worst_far_strongest": 1.0,
+      "far_inflation_strongest": 0.9734361610968295,
+      "residual_security_strongest": 0.0
+    },
+    {
+      "defence": "PAIRRESID",
+      "macro_tar": 0.9261351325011622,
+      "worst_far_A0": 0.027420736932305057,
+      "worst_far_A1_gain_match": 0.027420736932305057,
+      "worst_far_A2c_feat_nn_top10": 0.15384615384615385,
+      "worst_far_A5_nn+centroid_blend": 0.3162393162393162,
+      "worst_far_strongest": 0.3162393162393162,
+      "far_inflation_strongest": 0.28881857930701116,
+      "residual_security_strongest": 0.6837606837606838
+    }
+  ],
+  "pivot_worst_far": {
+    "EnergyOnly": {
+      "A0_raw": 0.0,
+      "A1_gain_match": 1.0,
+      "A2_feat_nn": 0.0,
+      "A2b_gain+feat_nn": 1.0,
+      "A2c_feat_nn_top10": 0.0,
+      "A3_surrogate": 0.0,
+      "A4_gain+surrogate": 1.0,
+      "A5_nn+centroid_blend": 0.0
+    },
+    "IsolationForest": {
+      "A0_raw": 0.27420736932305056,
+      "A1_gain_match": 0.27420736932305056,
+      "A2_feat_nn": 0.4278728606356968,
+      "A2b_gain+feat_nn": 0.4278728606356968,
+      "A2c_feat_nn_top10": 0.717948717948718,
+      "A3_surrogate": 0.2759211653813196,
+      "A4_gain+surrogate": 0.2759211653813196,
+      "A5_nn+centroid_blend": 1.0
+    },
+    "OAS": {
+      "A0_raw": 0.028277634961439587,
+      "A1_gain_match": 0.028277634961439587,
+      "A2_feat_nn": 0.07090464547677261,
+      "A2b_gain+feat_nn": 0.07090464547677261,
+      "A2c_feat_nn_top10": 0.15384615384615385,
+      "A3_surrogate": 0.028277634961439587,
+      "A4_gain+surrogate": 0.028277634961439587,
+      "A5_nn+centroid_blend": 1.0
+    },
+    "PAIRCONF": {
+      "A0_raw": 0.026563838903170524,
+      "A1_gain_match": 0.026563838903170524,
+      "A2_feat_nn": 0.06601466992665037,
+      "A2b_gain+feat_nn": 0.06601466992665037,
+      "A2c_feat_nn_top10": 0.1452991452991453,
+      "A3_surrogate": 0.026563838903170524,
+      "A4_gain+surrogate": 0.026563838903170524,
+      "A5_nn+centroid_blend": 1.0
+    },
+    "PAIRRESID": {
+      "A0_raw": 0.027420736932305057,
+      "A1_gain_match": 0.027420736932305057,
+      "A2_feat_nn": 0.06845965770171149,
+      "A2b_gain+feat_nn": 0.06845965770171149,
+      "A2c_feat_nn_top10": 0.15384615384615385,
+      "A3_surrogate": 0.027420736932305057,
+      "A4_gain+surrogate": 0.027420736932305057,
+      "A5_nn+centroid_blend": 0.3162393162393162
+    }
+  }
+}

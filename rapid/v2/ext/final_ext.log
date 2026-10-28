@@ -1,0 +1,49 @@
+0 orig RAPID
+0 orig CF-train
+0 orig RF-eq fit 96s
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+0 orig MLP-eq fit 596s
+0 orig kNN-eq fit 0s
+0 orig run done in 1313s
+0 swap RAPID
+0 swap CF-train
+0 swap RF-eq fit 84s
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+0 swap MLP-eq fit 677s
+0 swap kNN-eq fit 0s
+0 swap run done in 1483s
+1 orig RAPID
+1 orig CF-train
+1 orig RF-eq fit 87s
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+1 orig MLP-eq fit 636s
+1 orig kNN-eq fit 0s
+1 orig run done in 1481s
+1 swap RAPID
+1 swap CF-train
+1 swap RF-eq fit 83s
+1 swap RAPID
+1 swap CF-train
+1 swap RF-eq fit 50s
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+1 swap MLP-eq fit 98s
+1 swap kNN-eq fit 0s
+1 swap run done in 401s
+2 orig RAPID
+2 orig CF-train
+2 orig RF-eq fit 43s
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+2 orig MLP-eq fit 104s
+2 orig kNN-eq fit 0s
+2 orig run done in 291s
+2 swap RAPID
+2 swap CF-train
+2 swap RF-eq fit 43s
+2 swap MLP-eq fit 108s
+2 swap kNN-eq fit 0s
+2 swap run done in 321s

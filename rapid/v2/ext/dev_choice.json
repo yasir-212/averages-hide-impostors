@@ -1,0 +1,12 @@
+{
+ "knn_k": 5,
+ "knn_rule": "highest inner identification accuracy in both role orders among k in {1,5,15,45} (distance-weighted)",
+ "gbt": {
+  "learning_rate": 0.05,
+  "max_leaf_nodes": 15,
+  "min_samples_leaf": 100,
+  "l2_regularization": 1.0,
+  "max_iter": 200
+ },
+ "gbt_rule": "highest mean inner identification accuracy over both role orders among 3 regularised configurations (dev_gbt2.json); library defaults with early stopping stopped after 11 iterations at 33-40% accuracy (dev_ext.json)"
+}

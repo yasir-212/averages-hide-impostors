@@ -1,0 +1,2 @@
+model,n,median_ms,p95_ms,serialized_bytes,device,exclusions
+MLP64,400,0.032949,0.050987549999999986,248054,single host process,radio capture; feature extraction; end-to-end; energy

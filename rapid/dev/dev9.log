@@ -1,0 +1,4 @@
+E3 {'epochs': 30} stride2 fit 18.4s | floor: TAR 94.1 eff50 120 pooled 0.82 p99 29.0 ge50 79 eq100 16 devch 19.2 | EER 1.80 T@1% 96.6 T@.1% 84.1 acc 85.6
+E4 {'epochs': 30} stride2 fit 19.6s | floor: TAR 94.0 eff50 120 pooled 0.81 p99 29.0 ge50 73 eq100 15 devch 19.8 | EER 1.71 T@1% 96.6 T@.1% 84.2 acc 85.6
+E4 {'epochs': 40} stride3 fit 17.1s | floor: TAR 93.9 eff50 121 pooled 0.73 p99 22.6 ge50 65 eq100 14 devch 20.2 | EER 1.67 T@1% 96.7 T@.1% 83.1 acc 85.1
+E6 {'epochs': 30} stride3 fit 18.7s | floor: TAR 93.7 eff50 121 pooled 0.79 p99 25.8 ge50 77 eq100 18 devch 21.7 | EER 1.83 T@1% 96.2 T@.1% 82.2 acc 84.6

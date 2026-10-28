@@ -1,0 +1,128 @@
+{
+  "evidence_type": "SMoRFFI offline identity claims",
+  "dataset_sha256": "4d3efa580e733493add9a920a457517bb9c17a5b91dc0611d77c8217aef29ab8",
+  "n_devices": 122,
+  "dev_chosen_keep": 0.7,
+  "best_full_coverage_TAR_ge_0.30": {
+    "method": "RF128|PAIRRESIDv2_keep0.7+farcap0",
+    "TAR_all": 0.30128489144882586,
+    "FAR_pooled": 0.000256319183293848,
+    "FAR_worst": 0.4864864864864865,
+    "FAR_mean_max_source": 0.02702702702702703,
+    "eligible": 122,
+    "coverage": 1.0,
+    "dev_chosen_FAR": 0.0
+  },
+  "all": [
+    {
+      "method": "RF128|baseline_q90",
+      "TAR_all": 0.7589720868409393,
+      "FAR_pooled": 0.014991010520071622,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.3021710234824989,
+      "eligible": 122,
+      "coverage": 1.0,
+      "fit_seconds": 2.5378445189562626,
+      "dev_chosen_FAR": 0.2631812140008861
+    },
+    {
+      "method": "RF128|farcap_g0.0",
+      "TAR_all": 0.36353566681435534,
+      "FAR_pooled": 0.00029110535816944164,
+      "FAR_worst": 0.5405405405405406,
+      "FAR_mean_max_source": 0.029906956136464335,
+      "eligible": 122,
+      "coverage": 1.0,
+      "fit_seconds": 2.5378445189562626,
+      "dev_chosen_FAR": 0.0
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_keep0.7",
+      "TAR_all": 0.5429774036331413,
+      "FAR_pooled": 0.003967454787126918,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.1517501107665042,
+      "eligible": 122,
+      "coverage": 1.0,
+      "fit_seconds": 2.5378445189562626,
+      "dev_chosen_FAR": 0.10810810810810811,
+      "keep": 0.7,
+      "dev_TAR": 0.6938413823659725,
+      "dev_FAR_worst": 0.918918918918919
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_keep0.75",
+      "TAR_all": 0.604563579973416,
+      "FAR_pooled": 0.005164831543371037,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.1823216659282233,
+      "eligible": 122,
+      "coverage": 1.0,
+      "keep": 0.75,
+      "dev_chosen_FAR": 0.13269827204253434
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_keep0.8",
+      "TAR_all": 0.6333628710677891,
+      "FAR_pooled": 0.005803798650296415,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.194284448382809,
+      "eligible": 122,
+      "coverage": 1.0,
+      "keep": 0.8,
+      "dev_chosen_FAR": 0.1448825875055383
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_keep0.85",
+      "TAR_all": 0.6654851572884359,
+      "FAR_pooled": 0.006660637063021563,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.20846256092157733,
+      "eligible": 122,
+      "coverage": 1.0,
+      "keep": 0.85,
+      "dev_chosen_FAR": 0.16326982720425343
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_keep0.9",
+      "TAR_all": 0.6894107221976075,
+      "FAR_pooled": 0.007453395679923251,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.22197607443509085,
+      "eligible": 122,
+      "coverage": 1.0,
+      "keep": 0.9,
+      "dev_chosen_FAR": 0.17700487372618523
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_keep0.95",
+      "TAR_all": 0.715108551174125,
+      "FAR_pooled": 0.008240661742897212,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.2374833850243687,
+      "eligible": 122,
+      "coverage": 1.0,
+      "keep": 0.95,
+      "dev_chosen_FAR": 0.1936198493575543
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_keep0.7+farcap0",
+      "TAR_all": 0.30128489144882586,
+      "FAR_pooled": 0.000256319183293848,
+      "FAR_worst": 0.4864864864864865,
+      "FAR_mean_max_source": 0.02702702702702703,
+      "eligible": 122,
+      "coverage": 1.0,
+      "dev_chosen_FAR": 0.0
+    },
+    {
+      "method": "RF128|PAIRRESIDv2_resid_only",
+      "TAR_all": 0.5567124501550731,
+      "FAR_pooled": 0.022532287062838482,
+      "FAR_worst": 1.0,
+      "FAR_mean_max_source": 0.22840053167922023,
+      "eligible": 122,
+      "coverage": 1.0
+    }
+  ]
+}

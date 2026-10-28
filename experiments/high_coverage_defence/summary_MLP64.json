@@ -1,0 +1,64 @@
+{
+  "evidence_type": "SMoRFFI offline cross-identity claims",
+  "model": "MLP64",
+  "n_devices": 122,
+  "dataset_sha256": "4d3efa580e733493add9a920a457517bb9c17a5b91dc0611d77c8217aef29ab8",
+  "splits": {
+    "train": [
+      0,
+      600
+    ],
+    "dev": [
+      600,
+      750
+    ],
+    "cal": [
+      750,
+      850
+    ],
+    "test": [
+      850,
+      999
+    ]
+  },
+  "n_policies": 19,
+  "best_full_coverage_by_worst_pair": {
+    "policy": "far_capped_threshold_gamma=0.0",
+    "TAR_all_identities": 0.34249003101462117,
+    "FAR_pooled": 0.00034420004613745303,
+    "FAR_worst_pair": 0.4594594594594595,
+    "FAR_mean_max_source": 0.029463890119627825,
+    "eligible_identities": 122,
+    "identity_coverage": 1.0,
+    "FAR_worst_eligible_pair": 0.4594594594594595,
+    "dev_chosen_attacker_mean_FAR": 0.0,
+    "margin": 0.0,
+    "gate_gamma": 0.0
+  },
+  "pair_gate_identity_gate_gamma0": {
+    "policy": "identity_gate_gamma=0.0",
+    "TAR_all_identities": 0.11719096145325654,
+    "FAR_pooled": 6.957234975118731e-05,
+    "FAR_worst_pair": 0.16216216216216217,
+    "FAR_mean_max_source": 0.005316792202038104,
+    "eligible_identities": 20,
+    "identity_coverage": 0.16393442622950818,
+    "FAR_worst_eligible_pair": 0.16216216216216217,
+    "dev_chosen_attacker_mean_FAR": 0.0,
+    "margin": 0.0,
+    "gate_gamma": 0.0
+  },
+  "baseline": {
+    "policy": "baseline_genuine_q90",
+    "TAR_all_identities": 0.7651750110766504,
+    "FAR_pooled": 0.014216560416262356,
+    "FAR_worst_pair": 1.0,
+    "FAR_mean_max_source": 0.30682321665928225,
+    "eligible_identities": 122,
+    "identity_coverage": 1.0,
+    "FAR_worst_eligible_pair": 1.0,
+    "dev_chosen_attacker_mean_FAR": 0.244793974302171,
+    "margin": 0.0,
+    "gate_gamma": null
+  }
+}

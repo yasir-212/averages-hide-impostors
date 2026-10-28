@@ -1,0 +1,15 @@
+RF retry k=1,5,20: [12.5, 29.0, 50.8]
+MLP retry k=1,5,20: [11.4, 26.2, 43.0]
+RF-eq retry k=1,5,20: [8.1, 19.4, 36.9]
+MLP-eq retry k=1,5,20: [7.7, 19.7, 35.2]
+RAPID retry k=1,5,20: [2.5, 6.4, 13.1]
+beta 0.000 TAR 88.4 pooled 0.096 worst 89.2 ge50 3.0 devch 4.3 r20 20.9
+beta 0.005 TAR 87.7 pooled 0.086 worst 89.2 ge50 2.5 devch 3.5 r20 17.6
+beta 0.010 TAR 86.9 pooled 0.077 worst 89.2 ge50 2.5 devch 3.1 r20 16.4
+beta 0.015 TAR 86.0 pooled 0.070 worst 87.8 ge50 2.0 devch 2.8 r20 14.8
+beta 0.020 TAR 84.9 pooled 0.063 worst 86.5 ge50 2.0 devch 2.5 r20 13.1
+beta 0.030 TAR 82.9 pooled 0.052 worst 86.5 ge50 2.0 devch 1.9 r20 10.7
+beta 0.040 TAR 80.5 pooled 0.043 worst 83.8 ge50 2.0 devch 1.5 r20 8.6
+beta 0.050 TAR 77.9 pooled 0.036 worst 81.1 ge50 1.5 devch 1.2 r20 6.1
+beta 0.075 TAR 71.8 pooled 0.023 worst 75.7 ge50 1.0 devch 0.6 r20 2.9
+beta 0.100 TAR 64.1 pooled 0.015 worst 71.6 ge50 1.0 devch 0.4 r20 2.0

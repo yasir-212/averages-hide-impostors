@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Datasets and large intermediates (never commit data; see data/README.md)
+data/*
+!data/README.md
+!data/build_smorffi_features.py
+*.npy
+*.dat
+*.h5
+*.mat
+*.pth
+*.pt
+audit/probs_*.npz
+audit/resid_*.npz
+audit/ver_*.pkl
+rapid/scores_*_s1.npz
+rapid/scores_*_s2.npz
+rapid/dev/*.npz
+results_*/
+
+# LaTeX build files (if you add the paper later)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Figures that the scripts draw but the paper does not use
+figures/extra/
+
+# LaTeX written by the table and number generators
+*.tex

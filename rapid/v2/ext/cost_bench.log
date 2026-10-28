@@ -1,0 +1,8 @@
+{'system': 'RAPID', 'fit_s': 71.60657095909119, 'size_MB': 11.476318359375, 'params': 80448, 'ms_batched': 1.4204061670006922, 'ms_single': 2.539031999731378, 'ms_single_p95': 4.4874168998831}
+{'system': 'CFtrain', 'fit_s': 16.449896097183228, 'size_MB': 0.132080078125, 'params': 34624, 'ms_batched': 0.011425431999668945, 'ms_single': 0.18789000023389235, 'ms_single_p95': 0.2810435998071625}
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (60) reached and the optimization hasn't converged yet.
+  warnings.warn(
+{'system': 'MLP-eq', 'fit_s': 108.91819953918457, 'size_MB': 0.38620758056640625, 'params': 101242, 'ms_batched': 0.04066771100042388, 'ms_single': 0.3038200002265512, 'ms_single_p95': 0.42887064973911004}
+{'system': 'kNN-eq', 'fit_s': 0.19309592247009277, 'size_MB': 12.536250114440918, 'params': 0, 'ms_batched': 0.7013573449985415, 'ms_single': 1.8378639997536084, 'ms_single_p95': 2.9677600005925333}
+{'system': 'GBT-eq', 'fit_s': 104.70921850204468, 'size_MB': 39.96556854248047, 'params': 0, 'ms_batched': 2.750837675999719, 'ms_single': 146.07800849989871, 'ms_single_p95': 184.8398660001293}
+{'system': 'RF-eq', 'fit_s': 44.36630463600159, 'size_MB': 3987.43896484375, 'params': 4020320, 'ms_batched': 0.19204806699963228, 'ms_single': 7.738731000245025, 'ms_single_p95': 9.515394349818962}

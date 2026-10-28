@@ -1,0 +1,4 @@
+{'n_dev': 60, 'snr_db': 20.0, 'spread': 1.0, 'twins': 0.1, 'twin_delta': 0.0, 'drift_ppm': 0.6} seed 11 gen 4.3s total 22.0s
+{'n_dev': 60, 'snr_db': 20.0, 'spread': 1.0, 'twins': 0.1, 'twin_delta': 0.0, 'drift_ppm': 0.6} seed 12 gen 3.7s total 22.1s
+{'n_dev': 60, 'snr_db': 20.0, 'spread': 1.0, 'twins': 0.1, 'twin_delta': 0.005, 'drift_ppm': 0.6} seed 11 gen 3.7s total 22.1s
+{'n_dev': 60, 'snr_db': 20.0, 'spread': 1.0, 'twins': 0.1, 'twin_delta': 0.005, 'drift_ppm': 0.6} seed 12 gen 4.0s total 22.5s

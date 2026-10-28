@@ -1,0 +1,16 @@
+BASELINE                           TAR 89.6 eff50 119 pooled 0.87 p99 33.5 ge50 98 eq100 12 devch 19.7 r20 45.9 EER 1.41 AUC 0.9987 T@1% 97.9 T@.1% 83.6 acc 87.0 excl 38.2
+--- E3 e30 b256 fit 47.5s params 103872
+  lam0.75 quantile                 TAR 88.7 eff50 121 pooled 0.51 p99 12.9 ge50 48 eq100 12 devch 15.4 r20 32.8 EER 1.36 AUC 0.9991 T@1% 98.0 T@.1% 87.3 acc 87.6 excl 65.1
+  lam0.75 floor0.0: TAR 97.5 eff50 121 pooled 0.72 p99 22.6 ge50 61 eq100 15 devch 28.5 excl 53.8
+  lam1.0 quantile                  TAR 88.4 eff50 121 pooled 0.56 p99 16.1 ge50 50 eq100 10 devch 15.6 r20 32.8 EER 1.40 AUC 0.9990 T@1% 97.9 T@.1% 87.2 acc 87.6 excl 66.0
+  lam1.0 floor0.0: TAR 95.0 eff50 121 pooled 0.59 p99 16.1 ge50 51 eq100 10 devch 17.4 excl 63.4
+--- E5 e30 b256 fit 84.7s params 173120
+  lam0.75 quantile                 TAR 88.9 eff50 120 pooled 0.51 p99 12.9 ge50 48 eq100 13 devch 16.0 r20 35.2 EER 1.44 AUC 0.9990 T@1% 98.0 T@.1% 87.2 acc 87.5 excl 63.9
+  lam0.75 floor0.0: TAR 97.3 eff50 121 pooled 0.72 p99 22.6 ge50 63 eq100 16 devch 29.7 excl 52.9
+  lam1.0 quantile                  TAR 88.8 eff50 120 pooled 0.56 p99 16.1 ge50 51 eq100 10 devch 15.3 r20 35.2 EER 1.44 AUC 0.9989 T@1% 97.8 T@.1% 87.3 acc 87.5 excl 65.0
+  lam1.0 floor0.0: TAR 95.0 eff50 120 pooled 0.59 p99 16.1 ge50 52 eq100 10 devch 17.6 excl 62.5
+--- E5 e40 b256 fit 117.6s params 173120
+  lam0.75 quantile                 TAR 88.6 eff50 120 pooled 0.59 p99 16.1 ge50 55 eq100 12 devch 16.4 r20 37.7 EER 1.44 AUC 0.9991 T@1% 98.2 T@.1% 88.7 acc 88.3 excl 60.0
+  lam0.75 floor0.0: TAR 97.4 eff50 121 pooled 0.78 p99 25.8 ge50 67 eq100 14 devch 28.7 excl 51.3
+  lam1.0 quantile                  TAR 88.2 eff50 120 pooled 0.63 p99 19.4 ge50 57 eq100 11 devch 15.3 r20 34.4 EER 1.48 AUC 0.9989 T@1% 98.1 T@.1% 88.4 acc 88.3 excl 61.7
+  lam1.0 floor0.0: TAR 95.3 eff50 121 pooled 0.66 p99 19.4 ge50 58 eq100 11 devch 17.1 excl 59.0

@@ -1,0 +1,60 @@
+{
+  "dataset_sha256": "4d3efa580e733493add9a920a457517bb9c17a5b91dc0611d77c8217aef29ab8",
+  "n_devices": 122,
+  "natural_test": {
+    "baseline": {
+      "TAR": 0.7589720868409393,
+      "FAR_worst": 1.0,
+      "FAR_pooled": 0.014991010520071622
+    },
+    "farcap0": {
+      "TAR": 0.36353566681435534,
+      "FAR_worst": 0.5405405405405406,
+      "FAR_pooled": 0.00029110535816944164
+    },
+    "PAIRRESID": {
+      "TAR": 0.32233052724856004,
+      "FAR_worst": 0.32432432432432434,
+      "FAR_pooled": 7.323405236967085e-05
+    }
+  },
+  "adaptive_blend_curve": [
+    {
+      "alpha_blend_to_target": 0.0,
+      "baseline_mean_hard_FAR": 0.26783340717766946,
+      "baseline_worst_hard_FAR": 1.0,
+      "farcap0_mean_hard_FAR": 0.01595037660611431,
+      "farcap0_worst_hard_FAR": 0.40540540540540543,
+      "PAIRRESID_mean_hard_FAR": 0.000664599025254763,
+      "PAIRRESID_worst_hard_FAR": 0.02702702702702703
+    },
+    {
+      "alpha_blend_to_target": 0.25,
+      "baseline_mean_hard_FAR": 0.4262295081967214,
+      "baseline_worst_hard_FAR": 1.0,
+      "farcap0_mean_hard_FAR": 0.061807709348692966,
+      "farcap0_worst_hard_FAR": 0.8378378378378378,
+      "PAIRRESID_mean_hard_FAR": 0.008418254319893665,
+      "PAIRRESID_worst_hard_FAR": 0.1891891891891892
+    },
+    {
+      "alpha_blend_to_target": 0.5,
+      "baseline_mean_hard_FAR": 0.6366858661940629,
+      "baseline_worst_hard_FAR": 1.0,
+      "farcap0_mean_hard_FAR": 0.2058041648205583,
+      "farcap0_worst_hard_FAR": 1.0,
+      "PAIRRESID_mean_hard_FAR": 0.06535223748338503,
+      "PAIRRESID_worst_hard_FAR": 0.6756756756756757
+    },
+    {
+      "alpha_blend_to_target": 0.75,
+      "baseline_mean_hard_FAR": 0.8017279574656624,
+      "baseline_worst_hard_FAR": 1.0,
+      "farcap0_mean_hard_FAR": 0.4583517944173682,
+      "farcap0_worst_hard_FAR": 1.0,
+      "PAIRRESID_mean_hard_FAR": 0.34315463003987595,
+      "PAIRRESID_worst_hard_FAR": 1.0
+    }
+  ],
+  "evidence_type": "SMoRFFI offline; feature blend toward target prototype"
+}

@@ -1,0 +1,65 @@
+rapid/v2/ext/frames_s0_orig.npz done
+rapid/v2/ext/frames_s0_swap.npz done
+rapid/v2/ext/frames_s1_orig.npz done
+rapid/v2/ext/frames_s1_swap.npz done
+rapid/v2/ext/frames_s2_orig.npz done
+rapid/v2/ext/frames_s2_swap.npz done
+{'system': 'RAPID', 'seed': 0, 'order': 'orig', 'max_abs_diff': 1.7881393432617188e-07}
+{'system': 'RF-eq', 'seed': 0, 'order': 'orig', 'max_abs_diff': 0.0}
+{'system': 'MLP-eq', 'seed': 0, 'order': 'orig', 'max_abs_diff': 0.0}
+{'system': 'RAPID', 'seed': 0, 'order': 'swap', 'max_abs_diff': 2.384185791015625e-07}
+{'system': 'RF-eq', 'seed': 0, 'order': 'swap', 'max_abs_diff': 0.0}
+{'system': 'MLP-eq', 'seed': 0, 'order': 'swap', 'max_abs_diff': 0.0}
+{'system': 'RAPID', 'seed': 1, 'order': 'orig', 'max_abs_diff': 1.7881393432617188e-07}
+{'system': 'RF-eq', 'seed': 1, 'order': 'orig', 'max_abs_diff': 0.0}
+{'system': 'MLP-eq', 'seed': 1, 'order': 'orig', 'max_abs_diff': 0.0}
+{'system': 'RAPID', 'seed': 1, 'order': 'swap', 'max_abs_diff': 1.7881393432617188e-07}
+{'system': 'RF-eq', 'seed': 1, 'order': 'swap', 'max_abs_diff': 0.0}
+{'system': 'MLP-eq', 'seed': 1, 'order': 'swap', 'max_abs_diff': 0.0}
+{'system': 'RAPID', 'seed': 2, 'order': 'orig', 'max_abs_diff': 1.7881393432617188e-07}
+{'system': 'RF-eq', 'seed': 2, 'order': 'orig', 'max_abs_diff': 0.0}
+{'system': 'MLP-eq', 'seed': 2, 'order': 'orig', 'max_abs_diff': 0.0}
+{'system': 'RAPID', 'seed': 2, 'order': 'swap', 'max_abs_diff': 1.7881393432617188e-07}
+{'system': 'RF-eq', 'seed': 2, 'order': 'swap', 'max_abs_diff': 0.0}
+{'system': 'MLP-eq', 'seed': 2, 'order': 'swap', 'max_abs_diff': 0.0}
+L= 1 CFeq       runs=6 TAR 79.90 pooled 0.17 worst 81.88 ge50 2.5 devchosen 7.90 retry20 45.73 EER 3.46 AUC 0.99 TAR@FAR0.001 65.78 acc 79.90
+L= 1 CFtrain    runs=6 TAR 67.65 pooled 0.27 worst 81.21 ge50 12 devchosen 14.14 retry20 56.97 EER 5.77 AUC 0.9783 TAR@FAR0.001 47.77 acc 67.65
+L= 1 GBT-eq     runs=6 TAR 71.79 pooled 0.23 worst 82.89 ge50 8 devchosen 11.23 retry20 53.28 EER 4.39 AUC 0.9874 TAR@FAR0.001 59.91 acc 71.79
+L= 1 MLP-eq     runs=6 TAR 74.76 pooled 0.21 worst 75.50 ge50 5.5 devchosen 10.02 retry20 49.12 EER 3.01 AUC 0.9948 TAR@FAR0.001 64.25 acc 74.76
+L= 1 RAPID      runs=6 TAR 78.87 pooled 0.10 worst 77.18 ge50 1.5 devchosen 4.19 retry20 27.99 EER 2.32 AUC 0.9973 TAR@FAR0.001 78.88 acc 82.95
+L= 1 RF-eq      runs=6 TAR 72.80 pooled 0.22 worst 86.58 ge50 8.5 devchosen 10.84 retry20 52.81 EER 3.52 AUC 0.9921 TAR@FAR0.001 61.01 acc 73.10
+L= 1 kNN-eq     runs=6 TAR 59.67 pooled 0.33 worst 60.40 ge50 1 devchosen 10.40 retry20 62.76 EER 11.17 AUC 0.9349 TAR@FAR0.001 44.16 acc 59.67
+L= 2 CFeq       runs=6 TAR 83.08 pooled 0.14 worst 87.84 ge50 3 devchosen 6.61 retry20 39.07 EER 3.17 AUC 0.9917 TAR@FAR0.001 70.77 acc 83.08
+L= 2 CFtrain    runs=6 TAR 70.47 pooled 0.24 worst 87.84 ge50 14 devchosen 13.10 retry20 53.01 EER 5.24 AUC 0.9814 TAR@FAR0.001 52.15 acc 70.47
+L= 2 GBT-eq     runs=6 TAR 75.18 pooled 0.21 worst 85.14 ge50 10 devchosen 10.09 retry20 47.95 EER 3.64 AUC 0.9907 TAR@FAR0.001 64.93 acc 75.18
+L= 2 MLP-eq     runs=6 TAR 77.90 pooled 0.18 worst 79.73 ge50 7 devchosen 8.96 retry20 45.77 EER 2.66 AUC 0.996 TAR@FAR0.001 70.04 acc 77.90
+L= 2 RAPID      runs=6 TAR 81.83 pooled 0.08 worst 84.46 ge50 2 devchosen 3.53 retry20 22.68 EER 2.09 AUC 0.9979 TAR@FAR0.001 83.89 acc 85.81
+L= 2 RF-eq      runs=6 TAR 76.12 pooled 0.19 worst 88.51 ge50 10 devchosen 9.37 retry20 49.04 EER 3.06 AUC 0.9933 TAR@FAR0.001 66.66 acc 76.27
+L= 2 kNN-eq     runs=6 TAR 65.58 pooled 0.28 worst 65.54 ge50 2.5 devchosen 9.49 retry20 59.84 EER 6.51 AUC 0.9626 TAR@FAR0.001 52.10 acc 65.71
+L= 4 CFeq       runs=6 TAR 86.28 pooled 0.11 worst 93.24 ge50 4.5 devchosen 4.97 retry20 26.64 EER 2.93 AUC 0.9931 TAR@FAR0.001 75.11 acc 86.28
+L= 4 CFmean3    runs=6 TAR 87.12 pooled 0.11 worst 91.89 ge50 3.5 devchosen 4.95 retry20 24.18 EER 2.78 AUC 0.9952 TAR@FAR0.001 78.12 acc 87.12
+L= 4 CFtrain    runs=6 TAR 73.08 pooled 0.22 worst 91.89 ge50 15 devchosen 11.54 retry20 45.49 EER 4.73 AUC 0.9845 TAR@FAR0.001 55.98 acc 73.08
+L= 4 GBT-eq     runs=6 TAR 78.31 pooled 0.18 worst 91.89 ge50 10.5 devchosen 8.39 retry20 38.52 EER 3.02 AUC 0.9933 TAR@FAR0.001 71.21 acc 78.31
+L= 4 MLP-eq     runs=6 TAR 81.29 pooled 0.15 worst 91.89 ge50 8 devchosen 7.70 retry20 35.25 EER 2.43 AUC 0.997 TAR@FAR0.001 76.85 acc 81.29
+L= 4 RAPID      runs=6 TAR 84.87 pooled 0.06 worst 86.49 ge50 2 devchosen 2.47 retry20 13.11 EER 1.97 AUC 0.9984 TAR@FAR0.001 88.68 acc 88.38
+L= 4 RAPID-E1   runs=6 TAR 83.99 pooled 0.07 worst 86.49 ge50 2 devchosen 2.48 retry20 14.75 EER 2.10 AUC 0.9979 TAR@FAR0.001 87.78 acc 87.92
+L= 4 RAPID-E2   runs=6 TAR 84.67 pooled 0.06 worst 87.84 ge50 2 devchosen 2.38 retry20 13.93 EER 2.07 AUC 0.9983 TAR@FAR0.001 88.54 acc 88.35
+L= 4 RAPID-k1   runs=6 TAR 84.02 pooled 0.06 worst 81.08 ge50 2 devchosen 2.53 retry20 13.93 EER 2.05 AUC 0.9983 TAR@FAR0.001 88.25 acc 88.23
+L= 4 RAPID-k10  runs=6 TAR 85.57 pooled 0.07 worst 90.54 ge50 2 devchosen 2.65 retry20 15.16 EER 1.90 AUC 0.9983 TAR@FAR0.001 88.49 acc 88.41
+L= 4 RAPID-k5   runs=6 TAR 85.25 pooled 0.06 worst 87.84 ge50 2 devchosen 2.46 retry20 13.93 EER 1.93 AUC 0.9984 TAR@FAR0.001 88.69 acc 88.54
+L= 4 RF-eq      runs=6 TAR 79.71 pooled 0.17 worst 91.89 ge50 10.5 devchosen 8.05 retry20 36.89 EER 2.76 AUC 0.9953 TAR@FAR0.001 72.85 acc 79.77
+L= 4 kNN-eq     runs=6 TAR 72.11 pooled 0.23 worst 71.62 ge50 5 devchosen 7.99 retry20 48.36 EER 4.49 AUC 0.9789 TAR@FAR0.001 61.11 acc 72.11
+L= 8 CFeq       runs=6 TAR 89.34 pooled 0.09 worst 91.67 ge50 5 devchosen 3.37 retry20 nan EER 2.73 AUC 0.9948 TAR@FAR0.001 80.78 acc 89.34
+L= 8 CFtrain    runs=6 TAR 76.50 pooled 0.19 worst 94.44 ge50 18 devchosen 10.31 retry20 nan EER 4.27 AUC 0.9877 TAR@FAR0.001 60.38 acc 76.50
+L= 8 GBT-eq     runs=6 TAR 82.33 pooled 0.15 worst 100.00 ge50 12 devchosen 6.19 retry20 nan EER 2.44 AUC 0.9954 TAR@FAR0.001 78.28 acc 82.33
+L= 8 MLP-eq     runs=6 TAR 84.84 pooled 0.13 worst 97.22 ge50 10 devchosen 5.44 retry20 nan EER 2.13 AUC 0.9979 TAR@FAR0.001 82.54 acc 84.84
+L= 8 RAPID      runs=6 TAR 87.66 pooled 0.05 worst 83.33 ge50 3 devchosen 1.21 retry20 nan EER 1.87 AUC 0.9988 TAR@FAR0.001 91.94 acc 90.89
+L= 8 RF-eq      runs=6 TAR 83.67 pooled 0.13 worst 100.00 ge50 11 devchosen 5.17 retry20 nan EER 2.56 AUC 0.9965 TAR@FAR0.001 78.51 acc 83.70
+L= 8 kNN-eq     runs=6 TAR 78.73 pooled 0.18 worst 75.00 ge50 7 devchosen 6.44 retry20 nan EER 3.74 AUC 0.9873 TAR@FAR0.001 68.99 acc 78.73
+L=16 CFeq       runs=6 TAR 91.58 pooled 0.07 worst 100.00 ge50 5.5 devchosen 1.78 retry20 nan EER 2.54 AUC 0.9961 TAR@FAR0.001 84.11 acc 91.58
+L=16 CFtrain    runs=6 TAR 79.69 pooled 0.17 worst 100.00 ge50 18 devchosen 7.38 retry20 nan EER 4.05 AUC 0.991 TAR@FAR0.001 64.85 acc 79.69
+L=16 GBT-eq     runs=6 TAR 85.06 pooled 0.12 worst 100.00 ge50 12.5 devchosen 4.42 retry20 nan EER 2.01 AUC 0.9971 TAR@FAR0.001 83.06 acc 85.06
+L=16 MLP-eq     runs=6 TAR 86.98 pooled 0.11 worst 100.00 ge50 9.5 devchosen 3.42 retry20 nan EER 1.96 AUC 0.9986 TAR@FAR0.001 86.84 acc 86.98
+L=16 RAPID      runs=6 TAR 90.26 pooled 0.04 worst 100.00 ge50 3 devchosen 0.87 retry20 nan EER 1.62 AUC 0.999 TAR@FAR0.001 93.76 acc 92.44
+L=16 RF-eq      runs=6 TAR 85.75 pooled 0.12 worst 100.00 ge50 12 devchosen 3.69 retry20 nan EER 2.24 AUC 0.9981 TAR@FAR0.001 82.92 acc 85.75
+L=16 kNN-eq     runs=6 TAR 84.47 pooled 0.13 worst 88.89 ge50 9.5 devchosen 4.83 retry20 nan EER 3.23 AUC 0.9936 TAR@FAR0.001 78.01 acc 84.47

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the accompanying paper."
+title: "Averages Hide Impostors: code for targeted-risk evaluation and rival-aware verification (RAPID) in RF-fingerprint authentication"
+authors:
+  - family-names: Nawaz
+    given-names: Yasir
+    affiliation: "School of Computer Science and Technology, University of Science and Technology of China"
+    email: "my_nawaz@mail.ustc.edu.cn"
+    orcid: "https://orcid.org/0009-0001-3093-4475"
+  - family-names: Zhang
+    given-names: Hui
+    affiliation: "School of Computer Science and Technology, University of Science and Technology of China"
+    email: "fzhh@ustc.edu.cn"
+    orcid: "https://orcid.org/0000-0002-6539-7470"
+version: 1.0.0
+date-released: 2026-10-17
+license: MIT
+repository-code: "https://github.com/yasir-212/averages-hide-impostors"
+keywords:
+  - RF fingerprinting
+  - physical-layer authentication
+  - impersonation
+  - false acceptance
+  - evaluation methodology
+  - metric learning
+preferred-citation:
+  type: article
+  title: "RAPID: Exposing and Defeating Targeted Impersonation in RF-Fingerprint Authentication through Provably Exclusive Rival-Aware Verification"
+  authors:
+    - family-names: Nawaz
+      given-names: Yasir
+      orcid: "https://orcid.org/0009-0001-3093-4475"
+    - family-names: Zhang
+      given-names: Hui
+      orcid: "https://orcid.org/0000-0002-6539-7470"
+  journal: "ACM Transactions on Privacy and Security (under review)"
+  year: 2026

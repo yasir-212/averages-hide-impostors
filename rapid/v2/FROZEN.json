@@ -1,0 +1,11 @@
+{"status": "frozen 2026-10-20 on development data only (inner split; frames 850-998 never read)",
+ "E": 3, "h": [128, 128], "d_emb": 64, "epochs": 30, "m": 0.25, "s": 16.0,
+ "training_frames": "training block + recent enrolment (calibration) block",
+ "references": "all recent-enrolment-block frames of each identity (local prototypes)", "k": 3,
+ "rule": "identification with margin: accept claim t iff R_t >= delta", "delta": 0.02,
+ "open_set_check": "c_t >= 5th percentile of cross-fitted genuine c_t on the enrolment block (open-set experiment)", "alpha": 0.05,
+ "dtype": "float32",
+ "dev_evidence": {"inner_split": "train 0-349, A 350-474, B 475-599, test 600-849; 2 seeds x 2 orders",
+   "RAPID k3 delta0.02": {"TAR": 84.1, "pooled": 0.08, "worst": 78.6, "ge10": 25, "ge50": 3, "devchosen": 3.1, "retry20": 14.6, "EER": 2.11, "AUC": 0.9976, "TAR@0.1%": 86.5},
+   "RF-eq ident": {"TAR": 79.4, "pooled": 0.17, "worst": 81.0, "ge10": 66, "ge50": 9, "devchosen": 8.3, "retry20": 34.2, "EER": 2.61, "AUC": 0.9963, "TAR@0.1%": 70.8},
+   "MLP-eq ident": {"TAR": 79.3, "pooled": 0.17, "worst": 81.9, "ge10": 66, "ge50": 8, "devchosen": 7.8, "retry20": 34.4, "EER": 2.84, "AUC": 0.9963, "TAR@0.1%": 73.3}}}

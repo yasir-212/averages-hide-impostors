@@ -1,0 +1,4 @@
+E2 {'epochs': 30} fit 18.6s | floor: TAR 95.0 eff50 121 pooled 0.65 p99 19.4 ge50 55 eq100 10 devch 17.5 | EER 1.44 T@1% 97.8 T@.1% 86.8 acc 87.1
+E4 {'epochs': 15, 'lr': 0.003} fit 18.8s | floor: TAR 94.6 eff50 120 pooled 0.67 p99 22.6 ge50 62 eq100 12 devch 18.1 | EER 1.52 T@1% 97.4 T@.1% 85.7 acc 86.6
+E4 {'epochs': 20, 'lr': 0.003} fit 24.9s | floor: TAR 94.8 eff50 120 pooled 0.72 p99 22.6 ge50 62 eq100 13 devch 17.7 | EER 1.47 T@1% 97.9 T@.1% 86.9 acc 87.3
+E3 {'epochs': 30} fit 34.0s | floor: TAR 95.0 eff50 121 pooled 0.59 p99 16.1 ge50 51 eq100 10 devch 17.4 | EER 1.40 T@1% 97.9 T@.1% 87.2 acc 87.6

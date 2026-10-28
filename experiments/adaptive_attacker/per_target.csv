@@ -1,0 +1,161 @@
+target,defence,attack,attack_desc,tar,far,n_attack,n_genuine_test
+1,EnergyOnly,A0_raw,unmodified attacker IQ,0.9509556437071763,0.0,1351,2773
+1,EnergyOnly,A1_gain_match,global RMS gain match,0.9509556437071763,1.0,1351,2773
+1,EnergyOnly,A2_feat_nn,NN select 35% closest to enroll centroid,0.9509556437071763,0.0,473,2773
+1,EnergyOnly,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9509556437071763,0.0,136,2773
+1,EnergyOnly,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9509556437071763,0.0,1351,2773
+1,EnergyOnly,A4_gain+surrogate,gain match then surrogate projection,0.9509556437071763,1.0,1351,2773
+1,EnergyOnly,A2b_gain+feat_nn,gain match + NN select,0.9509556437071763,1.0,473,2773
+1,EnergyOnly,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9509556437071763,0.0,136,2773
+1,OAS,A0_raw,unmodified attacker IQ,0.9304002884962135,0.0,1351,2773
+1,OAS,A1_gain_match,global RMS gain match,0.9304002884962135,0.0,1351,2773
+1,OAS,A2_feat_nn,NN select 35% closest to enroll centroid,0.9304002884962135,0.0,473,2773
+1,OAS,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9304002884962135,0.0,136,2773
+1,OAS,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9304002884962135,0.0,1351,2773
+1,OAS,A4_gain+surrogate,gain match then surrogate projection,0.9304002884962135,0.0,1351,2773
+1,OAS,A2b_gain+feat_nn,gain match + NN select,0.9304002884962135,0.0,473,2773
+1,OAS,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9304002884962135,0.0,136,2773
+1,IsolationForest,A0_raw,unmodified attacker IQ,0.9516768842408944,0.0,1351,2773
+1,IsolationForest,A1_gain_match,global RMS gain match,0.9516768842408944,0.0,1351,2773
+1,IsolationForest,A2_feat_nn,NN select 35% closest to enroll centroid,0.9516768842408944,0.0,473,2773
+1,IsolationForest,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9516768842408944,0.0,136,2773
+1,IsolationForest,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9516768842408944,0.0,1351,2773
+1,IsolationForest,A4_gain+surrogate,gain match then surrogate projection,0.9516768842408944,0.0,1351,2773
+1,IsolationForest,A2b_gain+feat_nn,gain match + NN select,0.9516768842408944,0.0,473,2773
+1,IsolationForest,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9516768842408944,0.9705882352941176,136,2773
+1,PAIRCONF,A0_raw,unmodified attacker IQ,0.8795528308690949,0.0,1351,2773
+1,PAIRCONF,A1_gain_match,global RMS gain match,0.8795528308690949,0.0,1351,2773
+1,PAIRCONF,A2_feat_nn,NN select 35% closest to enroll centroid,0.8795528308690949,0.0,473,2773
+1,PAIRCONF,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.8795528308690949,0.0,136,2773
+1,PAIRCONF,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.8795528308690949,0.0,1351,2773
+1,PAIRCONF,A4_gain+surrogate,gain match then surrogate projection,0.8795528308690949,0.0,1351,2773
+1,PAIRCONF,A2b_gain+feat_nn,gain match + NN select,0.8795528308690949,0.0,473,2773
+1,PAIRCONF,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.8795528308690949,0.0,136,2773
+1,PAIRRESID,A0_raw,unmodified attacker IQ,0.9080418319509557,0.0,1351,2773
+1,PAIRRESID,A1_gain_match,global RMS gain match,0.9080418319509557,0.0,1351,2773
+1,PAIRRESID,A2_feat_nn,NN select 35% closest to enroll centroid,0.9080418319509557,0.0,473,2773
+1,PAIRRESID,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9080418319509557,0.0,136,2773
+1,PAIRRESID,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9080418319509557,0.0,1351,2773
+1,PAIRRESID,A4_gain+surrogate,gain match then surrogate projection,0.9080418319509557,0.0,1351,2773
+1,PAIRRESID,A2b_gain+feat_nn,gain match + NN select,0.9080418319509557,0.0,473,2773
+1,PAIRRESID,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9080418319509557,0.0,136,2773
+2,EnergyOnly,A0_raw,unmodified attacker IQ,0.9463179628355127,0.0,1167,2906
+2,EnergyOnly,A1_gain_match,global RMS gain match,0.9463179628355127,1.0,1167,2906
+2,EnergyOnly,A2_feat_nn,NN select 35% closest to enroll centroid,0.9463179628355127,0.0,409,2906
+2,EnergyOnly,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9463179628355127,0.0,117,2906
+2,EnergyOnly,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9463179628355127,0.0,1167,2906
+2,EnergyOnly,A4_gain+surrogate,gain match then surrogate projection,0.9463179628355127,1.0,1167,2906
+2,EnergyOnly,A2b_gain+feat_nn,gain match + NN select,0.9463179628355127,1.0,409,2906
+2,EnergyOnly,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9463179628355127,0.0,117,2906
+2,OAS,A0_raw,unmodified attacker IQ,0.959050240880936,0.028277634961439587,1167,2906
+2,OAS,A1_gain_match,global RMS gain match,0.959050240880936,0.028277634961439587,1167,2906
+2,OAS,A2_feat_nn,NN select 35% closest to enroll centroid,0.959050240880936,0.07090464547677261,409,2906
+2,OAS,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.959050240880936,0.15384615384615385,117,2906
+2,OAS,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.959050240880936,0.028277634961439587,1167,2906
+2,OAS,A4_gain+surrogate,gain match then surrogate projection,0.959050240880936,0.028277634961439587,1167,2906
+2,OAS,A2b_gain+feat_nn,gain match + NN select,0.959050240880936,0.07090464547677261,409,2906
+2,OAS,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.959050240880936,1.0,117,2906
+2,IsolationForest,A0_raw,unmodified attacker IQ,0.946662078458362,0.27420736932305056,1167,2906
+2,IsolationForest,A1_gain_match,global RMS gain match,0.946662078458362,0.27420736932305056,1167,2906
+2,IsolationForest,A2_feat_nn,NN select 35% closest to enroll centroid,0.946662078458362,0.4278728606356968,409,2906
+2,IsolationForest,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.946662078458362,0.717948717948718,117,2906
+2,IsolationForest,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.946662078458362,0.2759211653813196,1167,2906
+2,IsolationForest,A4_gain+surrogate,gain match then surrogate projection,0.946662078458362,0.2759211653813196,1167,2906
+2,IsolationForest,A2b_gain+feat_nn,gain match + NN select,0.946662078458362,0.4278728606356968,409,2906
+2,IsolationForest,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.946662078458362,1.0,117,2906
+2,PAIRCONF,A0_raw,unmodified attacker IQ,0.8960770818995183,0.026563838903170524,1167,2906
+2,PAIRCONF,A1_gain_match,global RMS gain match,0.8960770818995183,0.026563838903170524,1167,2906
+2,PAIRCONF,A2_feat_nn,NN select 35% closest to enroll centroid,0.8960770818995183,0.06601466992665037,409,2906
+2,PAIRCONF,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.8960770818995183,0.1452991452991453,117,2906
+2,PAIRCONF,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.8960770818995183,0.026563838903170524,1167,2906
+2,PAIRCONF,A4_gain+surrogate,gain match then surrogate projection,0.8960770818995183,0.026563838903170524,1167,2906
+2,PAIRCONF,A2b_gain+feat_nn,gain match + NN select,0.8960770818995183,0.06601466992665037,409,2906
+2,PAIRCONF,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.8960770818995183,1.0,117,2906
+2,PAIRRESID,A0_raw,unmodified attacker IQ,0.934273916035788,0.027420736932305057,1167,2906
+2,PAIRRESID,A1_gain_match,global RMS gain match,0.934273916035788,0.027420736932305057,1167,2906
+2,PAIRRESID,A2_feat_nn,NN select 35% closest to enroll centroid,0.934273916035788,0.06845965770171149,409,2906
+2,PAIRRESID,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.934273916035788,0.15384615384615385,117,2906
+2,PAIRRESID,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.934273916035788,0.027420736932305057,1167,2906
+2,PAIRRESID,A4_gain+surrogate,gain match then surrogate projection,0.934273916035788,0.027420736932305057,1167,2906
+2,PAIRRESID,A2b_gain+feat_nn,gain match + NN select,0.934273916035788,0.06845965770171149,409,2906
+2,PAIRRESID,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.934273916035788,0.3162393162393162,117,2906
+3,EnergyOnly,A0_raw,unmodified attacker IQ,0.9458443023693117,0.0,1630,2659
+3,EnergyOnly,A1_gain_match,global RMS gain match,0.9458443023693117,1.0,1630,2659
+3,EnergyOnly,A2_feat_nn,NN select 35% closest to enroll centroid,0.9458443023693117,0.0,571,2659
+3,EnergyOnly,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9458443023693117,0.0,163,2659
+3,EnergyOnly,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9458443023693117,0.0,1630,2659
+3,EnergyOnly,A4_gain+surrogate,gain match then surrogate projection,0.9458443023693117,1.0,1630,2659
+3,EnergyOnly,A2b_gain+feat_nn,gain match + NN select,0.9458443023693117,1.0,571,2659
+3,EnergyOnly,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9458443023693117,0.0,163,2659
+3,OAS,A0_raw,unmodified attacker IQ,0.9567506581421588,0.0,1630,2659
+3,OAS,A1_gain_match,global RMS gain match,0.9567506581421588,0.0,1630,2659
+3,OAS,A2_feat_nn,NN select 35% closest to enroll centroid,0.9567506581421588,0.0,571,2659
+3,OAS,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9567506581421588,0.0,163,2659
+3,OAS,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9567506581421588,0.0,1630,2659
+3,OAS,A4_gain+surrogate,gain match then surrogate projection,0.9567506581421588,0.0,1630,2659
+3,OAS,A2b_gain+feat_nn,gain match + NN select,0.9567506581421588,0.0,571,2659
+3,OAS,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9567506581421588,0.0,163,2659
+3,IsolationForest,A0_raw,unmodified attacker IQ,0.9496051147047763,0.0,1630,2659
+3,IsolationForest,A1_gain_match,global RMS gain match,0.9496051147047763,0.0,1630,2659
+3,IsolationForest,A2_feat_nn,NN select 35% closest to enroll centroid,0.9496051147047763,0.0,571,2659
+3,IsolationForest,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9496051147047763,0.0,163,2659
+3,IsolationForest,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9496051147047763,0.0,1630,2659
+3,IsolationForest,A4_gain+surrogate,gain match then surrogate projection,0.9496051147047763,0.0,1630,2659
+3,IsolationForest,A2b_gain+feat_nn,gain match + NN select,0.9496051147047763,0.0,571,2659
+3,IsolationForest,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9496051147047763,0.8957055214723927,163,2659
+3,PAIRCONF,A0_raw,unmodified attacker IQ,0.9018427980443776,0.0,1630,2659
+3,PAIRCONF,A1_gain_match,global RMS gain match,0.9018427980443776,0.0,1630,2659
+3,PAIRCONF,A2_feat_nn,NN select 35% closest to enroll centroid,0.9018427980443776,0.0,571,2659
+3,PAIRCONF,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9018427980443776,0.0,163,2659
+3,PAIRCONF,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9018427980443776,0.0,1630,2659
+3,PAIRCONF,A4_gain+surrogate,gain match then surrogate projection,0.9018427980443776,0.0,1630,2659
+3,PAIRCONF,A2b_gain+feat_nn,gain match + NN select,0.9018427980443776,0.0,571,2659
+3,PAIRCONF,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9018427980443776,0.0,163,2659
+3,PAIRRESID,A0_raw,unmodified attacker IQ,0.9364422715306506,0.0,1630,2659
+3,PAIRRESID,A1_gain_match,global RMS gain match,0.9364422715306506,0.0,1630,2659
+3,PAIRRESID,A2_feat_nn,NN select 35% closest to enroll centroid,0.9364422715306506,0.0,571,2659
+3,PAIRRESID,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9364422715306506,0.0,163,2659
+3,PAIRRESID,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9364422715306506,0.0,1630,2659
+3,PAIRRESID,A4_gain+surrogate,gain match then surrogate projection,0.9364422715306506,0.0,1630,2659
+3,PAIRRESID,A2b_gain+feat_nn,gain match + NN select,0.9364422715306506,0.0,571,2659
+3,PAIRRESID,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9364422715306506,0.0,163,2659
+4,EnergyOnly,A0_raw,unmodified attacker IQ,0.9577282994514359,0.0,1999,3099
+4,EnergyOnly,A1_gain_match,global RMS gain match,0.9577282994514359,1.0,1999,3099
+4,EnergyOnly,A2_feat_nn,NN select 35% closest to enroll centroid,0.9577282994514359,0.0,700,3099
+4,EnergyOnly,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9577282994514359,0.0,200,3099
+4,EnergyOnly,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9577282994514359,0.0,1999,3099
+4,EnergyOnly,A4_gain+surrogate,gain match then surrogate projection,0.9577282994514359,1.0,1999,3099
+4,EnergyOnly,A2b_gain+feat_nn,gain match + NN select,0.9577282994514359,1.0,700,3099
+4,EnergyOnly,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9577282994514359,0.0,200,3099
+4,OAS,A0_raw,unmodified attacker IQ,0.9444982252339464,0.0,1999,3099
+4,OAS,A1_gain_match,global RMS gain match,0.9444982252339464,0.0,1999,3099
+4,OAS,A2_feat_nn,NN select 35% closest to enroll centroid,0.9444982252339464,0.0,700,3099
+4,OAS,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9444982252339464,0.0,200,3099
+4,OAS,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9444982252339464,0.0,1999,3099
+4,OAS,A4_gain+surrogate,gain match then surrogate projection,0.9444982252339464,0.0,1999,3099
+4,OAS,A2b_gain+feat_nn,gain match + NN select,0.9444982252339464,0.0,700,3099
+4,OAS,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9444982252339464,0.0,200,3099
+4,IsolationForest,A0_raw,unmodified attacker IQ,0.9480477573410777,0.0,1999,3099
+4,IsolationForest,A1_gain_match,global RMS gain match,0.9480477573410777,0.0,1999,3099
+4,IsolationForest,A2_feat_nn,NN select 35% closest to enroll centroid,0.9480477573410777,0.0,700,3099
+4,IsolationForest,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9480477573410777,0.0,200,3099
+4,IsolationForest,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9480477573410777,0.0,1999,3099
+4,IsolationForest,A4_gain+surrogate,gain match then surrogate projection,0.9480477573410777,0.0,1999,3099
+4,IsolationForest,A2b_gain+feat_nn,gain match + NN select,0.9480477573410777,0.0,700,3099
+4,IsolationForest,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9480477573410777,0.005,200,3099
+4,PAIRCONF,A0_raw,unmodified attacker IQ,0.9002904162633107,0.0,1999,3099
+4,PAIRCONF,A1_gain_match,global RMS gain match,0.9002904162633107,0.0,1999,3099
+4,PAIRCONF,A2_feat_nn,NN select 35% closest to enroll centroid,0.9002904162633107,0.0,700,3099
+4,PAIRCONF,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9002904162633107,0.0,200,3099
+4,PAIRCONF,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9002904162633107,0.0,1999,3099
+4,PAIRCONF,A4_gain+surrogate,gain match then surrogate projection,0.9002904162633107,0.0,1999,3099
+4,PAIRCONF,A2b_gain+feat_nn,gain match + NN select,0.9002904162633107,0.0,700,3099
+4,PAIRCONF,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9002904162633107,0.0,200,3099
+4,PAIRRESID,A0_raw,unmodified attacker IQ,0.9257825104872539,0.0,1999,3099
+4,PAIRRESID,A1_gain_match,global RMS gain match,0.9257825104872539,0.0,1999,3099
+4,PAIRRESID,A2_feat_nn,NN select 35% closest to enroll centroid,0.9257825104872539,0.0,700,3099
+4,PAIRRESID,A2c_feat_nn_top10,NN select top-10% closest to enroll centroid,0.9257825104872539,0.0,200,3099
+4,PAIRRESID,A3_surrogate,surrogate-guided L2 feature projection eps=0.55,0.9257825104872539,0.0,1999,3099
+4,PAIRRESID,A4_gain+surrogate,gain match then surrogate projection,0.9257825104872539,0.0,1999,3099
+4,PAIRRESID,A2b_gain+feat_nn,gain match + NN select,0.9257825104872539,0.0,700,3099
+4,PAIRRESID,A5_nn+centroid_blend,top-10% NN then 55% blend to enroll centroid,0.9257825104872539,0.0,200,3099

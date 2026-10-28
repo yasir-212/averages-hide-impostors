@@ -1,0 +1,11 @@
+{'sha': '4d3efa580e733493add9a920a457517bb9c17a5b91dc0611d77c8217aef29ab8', 'n': 122, 'train_frames': 73200, 'windows': {'A': 3782, 'B': 3782, 'test': 4514}, 'min_per_source': {'A': 31, 'B': 31, 'test': 37}}
+SMoRFFI-RF128 0 fit 59.0s size 3305.16 MB lat 0.2076 ms
+RAPID 0 fit 38.1s size 0.40 MB lat 0.0226 ms
+RAPID-Lite 0 fit 20.6s size 0.26 MB lat 0.0172 ms
+SMoRFFI-RF128 1 fit 56.6s size 3280.24 MB lat 0.2299 ms
+RAPID 1 fit 37.1s size 0.40 MB lat 0.0266 ms
+RAPID-Lite 1 fit 19.4s size 0.26 MB lat 0.0180 ms
+SMoRFFI-RF128 2 fit 55.4s size 3235.12 MB lat 0.2002 ms
+RAPID 2 fit 37.5s size 0.40 MB lat 0.0331 ms
+RAPID-Lite 2 fit 29.0s size 0.26 MB lat 0.0204 ms
+saved 54 rows

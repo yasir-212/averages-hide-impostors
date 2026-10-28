@@ -1,0 +1,98 @@
+{
+ "M3 T-norm vs M0 reference|RF128": {
+  "orig": 3,
+  "swap": 1
+ },
+ "M3 T-norm vs M0 reference|MLP64": {
+  "orig": 0,
+  "swap": 2
+ },
+ "M3 T-norm vs M0 reference|DeepMLP": {
+  "orig": 0,
+  "swap": 3
+ },
+ "M3 T-norm vs M0 reference|CosFace": {
+  "orig": 2,
+  "swap": 0
+ },
+ "M4 conformal vs M0 reference|RF128": {
+  "orig": 3,
+  "swap": 3
+ },
+ "M4 conformal vs M0 reference|MLP64": {
+  "orig": 3,
+  "swap": 3
+ },
+ "M4 conformal vs M0 reference|DeepMLP": {
+  "orig": 3,
+  "swap": 3
+ },
+ "M4 conformal vs M0 reference|CosFace": {
+  "orig": 3,
+  "swap": 3
+ },
+ "M1 FAR-cap vs M0 reference|RF128": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M1 FAR-cap vs M0 reference|MLP64": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M1 FAR-cap vs M0 reference|DeepMLP": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M1 FAR-cap vs M0 reference|CosFace": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M3 T-norm vs M1 FAR-cap|RF128": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M3 T-norm vs M1 FAR-cap|MLP64": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M3 T-norm vs M1 FAR-cap|DeepMLP": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M3 T-norm vs M1 FAR-cap|CosFace": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M3+M2 T-norm+gate vs M2 gate|RF128": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M3+M2 T-norm+gate vs M2 gate|MLP64": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M3+M2 T-norm+gate vs M2 gate|DeepMLP": {
+  "orig": 2,
+  "swap": 1
+ },
+ "M3+M2 T-norm+gate vs M2 gate|CosFace": {
+  "orig": 2,
+  "swap": 0
+ },
+ "M2 gate vs M1 FAR-cap|RF128": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M2 gate vs M1 FAR-cap|MLP64": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M2 gate vs M1 FAR-cap|DeepMLP": {
+  "orig": 0,
+  "swap": 0
+ },
+ "M2 gate vs M1 FAR-cap|CosFace": {
+  "orig": 0,
+  "swap": 0
+ }
+}

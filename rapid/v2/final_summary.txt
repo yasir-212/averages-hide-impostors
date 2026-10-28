@@ -1,0 +1,65 @@
+metric                 RF|q        RF|id        MLP|q       MLP|id      RF-eq|q     RF-eq|id     MLP-eq|q    MLP-eq|id     RAPID|id
+TAR                    70.0         71.5         72.8         72.8         74.0         79.7         75.1         81.3         84.9
+eff50                  99.0         91.0        103.0         95.0        101.5        104.0        102.5        106.0        109.0
+acc                    71.6         71.6         72.8         72.8         79.8         79.8         81.3         81.3         88.4
+TAR@FAR0.01            87.9         87.9         88.3         88.3         93.8         93.8         94.5         94.5         96.9
+TAR@FAR0.001           60.1         60.1         60.7         60.7         72.9         72.9         76.8         76.8         88.7
+AUC                  0.9921       0.9921       0.9947       0.9947       0.9953       0.9953       0.9970       0.9970       0.9984
+pooled                 0.76         0.23         0.62         0.23         0.37         0.17         0.31         0.15         0.06
+worst                 100.0         94.6         98.6         97.3        100.0         91.9        100.0         91.9         86.5
+p99                    25.7          5.4         18.9          5.4          8.1          2.7          6.8          2.7          0.0
+ge10                  245.5         90.0        204.0         89.0        135.5         66.0        123.0         65.0         27.0
+ge50                   83.0         15.0         67.0         14.0         36.5         10.5         26.5          8.0          2.0
+eq100                   6.0          0.0          7.0          0.0          2.5          0.0          1.0          0.0          0.0
+devchosen              19.7         12.5         17.2         11.4         13.5          8.1         11.3          7.7          2.5
+retry5                 33.7         29.0         31.1         26.2         25.4         19.4         21.7         19.7          6.4
+retry20                46.3         50.8         43.4         43.0         36.5         36.9         33.2         35.2         13.1
+multi                  48.1          0.0         40.4          0.0         26.6          0.0         21.7          0.0          0.0
+claims                  1.6          1.0          1.5          1.0          1.2          1.0          1.2          1.0          0.9
+EER                    3.96         3.96         3.70         3.70         2.76         2.76         2.43         2.43         1.97
+
+RAPID better/tie/worse per run vs each baseline
+RF|quantile      all metrics better or tied in every run
+RF|ident         all metrics better or tied in every run
+MLP|quantile     all metrics better or tied in every run
+MLP|ident        losses: {'worst': [5, 0, 1]}
+RF-eq|quantile   all metrics better or tied in every run
+RF-eq|ident      all metrics better or tied in every run
+MLP-eq|quantile  all metrics better or tied in every run
+MLP-eq|ident     losses: {'eff50': [4, 1, 1], 'worst': [4, 1, 1]}
+
+costs {
+"RAPID": {
+"fit_s": 161.29188787937164,
+"size_MB": 11.476318359375,
+"params": 80448.0,
+"ref_values": 2928000.0,
+"ms_batched": 1.5123445045001063,
+"ms_single": 4.128319750179799,
+"ms_single_p95": 5.695322724523066
+},
+"RF-eq": {
+"fit_s": 67.94255864620209,
+"size_MB": 3909.427261352539,
+"params": 3941665.0,
+"ms_batched": 0.19411024149940204,
+"ms_single": 45.454076499481744,
+"ms_single_p95": 53.0246296757923
+},
+"MLP-eq": {
+"fit_s": 172.46537709236145,
+"size_MB": 0.38620758056640625,
+"params": 101242.0,
+"ms_batched": 0.03967771899897343,
+"ms_single": 0.5675069999142579,
+"ms_single_p95": 0.9286380001412906
+},
+"MLP": {
+"fit_s": 121.42288517951965,
+"size_MB": 0.38620758056640625,
+"params": 101242.0,
+"ms_batched": 0.025903016001393553,
+"ms_single": 0.4016959992441116,
+"ms_single_p95": 0.6082900995352245
+}
+}

@@ -1,0 +1,2 @@
+model,mean_dev_chosen_source_FAR,mean_oracle_test_source_FAR,number_target_worst_source_FAR_1,number_target_dev_chosen_source_FAR_1,target_number,source_number,test_trials_per_source
+MLP64,0.244793974302171,0.30682321665928225,9,5,122,122,37

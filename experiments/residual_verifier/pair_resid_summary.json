@@ -1,0 +1,43 @@
+{
+  "evidence_type": "SMoRFFI offline identity claims",
+  "dataset_sha256": "4d3efa580e733493add9a920a457517bb9c17a5b91dc0611d77c8217aef29ab8",
+  "n_devices": 122,
+  "pair_gate_identity_gate0": {
+    "method": "RF128|identity_gate_g0.0",
+    "TAR_all": 0.1521931767833407,
+    "FAR_pooled": 9.154256546208857e-06,
+    "FAR_worst": 0.08108108108108109,
+    "FAR_mean_max_source": 0.0008861320336730174,
+    "eligible": 26,
+    "coverage": 0.21311475409836064,
+    "FAR_worst_eligible": 0.08108108108108109,
+    "fit_seconds": 2.6321739190025255,
+    "dev_chosen_FAR": 0.0
+  },
+  "best_full_coverage_by_worst_FAR": {
+    "method": "MLP64|PAIRRESID_hard",
+    "TAR_all": 0.35910500664599027,
+    "FAR_pooled": 0.00011717448379147337,
+    "FAR_worst": 0.2972972972972973,
+    "FAR_mean_max_source": 0.012184315463003989,
+    "eligible": 122,
+    "coverage": 1.0,
+    "FAR_worst_eligible": 0.2972972972972973,
+    "fit_seconds": 33.738747519033495,
+    "dev_chosen_FAR": 0.0015507310589277803,
+    "targets_with_verifier": 122
+  },
+  "best_full_coverage_TAR_ge_0.35": {
+    "method": "MLP64|PAIRRESID_hard",
+    "TAR_all": 0.35910500664599027,
+    "FAR_pooled": 0.00011717448379147337,
+    "FAR_worst": 0.2972972972972973,
+    "FAR_mean_max_source": 0.012184315463003989,
+    "eligible": 122,
+    "coverage": 1.0,
+    "FAR_worst_eligible": 0.2972972972972973,
+    "fit_seconds": 33.738747519033495,
+    "dev_chosen_FAR": 0.0015507310589277803,
+    "targets_with_verifier": 122
+  }
+}

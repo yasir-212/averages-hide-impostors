@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-11",
+  "source_sha256": "4d3efa580e733493add9a920a457517bb9c17a5b91dc0611d77c8217aef29ab8",
+  "splits": {
+    "train": [
+      0,
+      600
+    ],
+    "dev": [
+      600,
+      750
+    ],
+    "cal": [
+      750,
+      850
+    ],
+    "test": [
+      850,
+      999
+    ]
+  },
+  "window_size_frames": 4,
+  "n_devices": 122,
+  "n_pairs": 14762,
+  "results_type": "offline cross-identity claims",
+  "selection_frozen_on": "dev 600-749 + independent genuine cal 750-849",
+  "tested_on": "850-998"
+}

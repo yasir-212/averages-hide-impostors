@@ -1,0 +1,10 @@
+kNN1 B acc 0.679 TAR 0.623 devch 0.046 EER 0.1200 fit 0s
+kNN5 B acc 0.734 TAR 0.734 devch 0.068 EER 0.0908 fit 0s
+kNN15 B acc 0.716 TAR 0.716 devch 0.067 EER 0.0912 fit 0s
+kNN45 B acc 0.675 TAR 0.675 devch 0.084 EER 0.0966 fit 0s
+HGB B acc 0.396 TAR 0.385 devch 0.079 EER 0.2966 fit 6s
+kNN1 A acc 0.642 TAR 0.588 devch 0.070 EER 0.1396 fit 0s
+kNN5 A acc 0.687 TAR 0.687 devch 0.107 EER 0.1141 fit 0s
+kNN15 A acc 0.671 TAR 0.671 devch 0.112 EER 0.1101 fit 0s
+kNN45 A acc 0.633 TAR 0.633 devch 0.120 EER 0.1146 fit 0s
+HGB A acc 0.334 TAR 0.321 devch 0.101 EER 0.3269 fit 6s
